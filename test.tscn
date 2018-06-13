@@ -1,0 +1,96 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://test.gd" type="Script" id=1]
+[ext_resource path="res://addons/kakoeimon.godotmation/godotmation.tscn" type="PackedScene" id=2]
+
+[node name="Node" type="Node" index="0"]
+
+script = ExtResource( 1 )
+
+[node name="GodotMation" parent="." index="0" instance=ExtResource( 2 )]
+
+GodotMation/dict = {
+"actions": null,
+"author": "",
+"autostart": true,
+"color_coding": false,
+"dice": "D6",
+"distribution_mode": null,
+"height": null,
+"interval": 1.0,
+"multiplayer": "",
+"name": "",
+"nodes": [ {
+"actions": 1.0,
+"activation_mode": 0,
+"capacity": -1.0,
+"caption": "Start",
+"caption_pos": null,
+"color": 0.0,
+"emit_state_changed": false,
+"name": "Start",
+"pull_mode": 0.0,
+"resource_color": 0,
+"starting_resources": 10.0,
+"thickness": 2,
+"type": 2,
+"x": 375.0,
+"y": 235.0
+}, {
+"actions": 1.0,
+"activation_mode": 2,
+"capacity": -1.0,
+"caption": "End",
+"caption_pos": null,
+"color": 0.0,
+"emit_state_changed": false,
+"name": "End",
+"pull_mode": 0.0,
+"resource_color": 0,
+"starting_resources": 0.0,
+"thickness": 2,
+"type": 2,
+"x": 532.0,
+"y": 100.0
+}, {
+"color": 0.0,
+"end": 1,
+"label": "+1",
+"label_position": null,
+"node_type": 1,
+"points": [  ],
+"start": 0,
+"thickness": 2.0,
+"type": 0
+}, {
+"actions": 1,
+"activation_mode": 0,
+"caption": "get_child",
+"caption_pos": null,
+"color": 0,
+"name": "get_child_count",
+"pull_mode": 0,
+"resource_color": 0,
+"thickness": 2,
+"type": 9,
+"x": 359.0,
+"y": 407.0
+} ],
+"number_of_runs": null,
+"skill": "",
+"speed": null,
+"strategy": "",
+"time_mode": null,
+"version": null,
+"visible_runs": null,
+"width": null
+}
+GodotMation/time_mode = 0
+GodotMation/interval = 0.0980392
+GodotMation/actions = 1038937325
+
+[node name="Node" type="Node" parent="GodotMation" index="0"]
+
+[node name="Node" type="Node" parent="." index="1"]
+
+
