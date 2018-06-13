@@ -1,0 +1,36 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://addons/kakoeimon.godotmation/godotmation.gdns" type="Script" id=1]
+
+[node name="GodotMation" type="Node"]
+
+GodotMation/dict = {
+"actions": null,
+"author": "",
+"autostart": true,
+"color_coding": false,
+"dice": "D6",
+"distribution_mode": null,
+"height": null,
+"interval": 1.0,
+"multiplayer": "",
+"name": "",
+"nodes": [  ],
+"number_of_runs": null,
+"skill": "",
+"speed": null,
+"strategy": "",
+"time_mode": null,
+"version": null,
+"visible_runs": null,
+"width": null
+}
+GodotMation/author = ""
+GodotMation/time_mode = 32706
+GodotMation/interval = 0.0
+GodotMation/actions = 0
+GodotMation/dice = ""
+GodotMation/autostart = true
+script = ExtResource( 1 )
+
+
