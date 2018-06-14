@@ -22,20 +22,30 @@ GodotMation/dict = {
 "name": "",
 "nodes": [ {
 "actions": 1.0,
-"activation_mode": 0,
+"activation_mode": 2,
 "capacity": -1.0,
-"caption": "Start",
+"caption": "",
 "caption_pos": null,
 "color": 0.0,
 "emit_state_changed": false,
-"name": "Start",
+"name": "editor_pool",
 "pull_mode": 0.0,
 "resource_color": 0,
-"starting_resources": 10.0,
+"starting_resources": 0.0,
 "thickness": 2,
 "type": 2,
-"x": 375.0,
-"y": 235.0
+"x": 377.0,
+"y": 163.0
+}, {
+"color": 0.0,
+"end": 0,
+"label": "10D6",
+"label_position": null,
+"node_type": 1,
+"points": [  ],
+"start": 4,
+"thickness": 2.0,
+"type": 0
 }, {
 "actions": 1.0,
 "activation_mode": 2,
@@ -50,12 +60,12 @@ GodotMation/dict = {
 "starting_resources": 0.0,
 "thickness": 2,
 "type": 2,
-"x": 532.0,
-"y": 100.0
+"x": 471.0,
+"y": 296.0
 }, {
-"color": 0.0,
-"end": 1,
-"label": "+1",
+"color": 0,
+"end": 2,
+"label": "all",
 "label_position": null,
 "node_type": 1,
 "points": [  ],
@@ -65,16 +75,16 @@ GodotMation/dict = {
 }, {
 "actions": 1,
 "activation_mode": 0,
-"caption": "get_child",
+"caption": "",
 "caption_pos": null,
 "color": 0,
-"name": "get_child_count",
+"name": "editor_source",
 "pull_mode": 0,
 "resource_color": 0,
 "thickness": 2,
-"type": 9,
-"x": 359.0,
-"y": 407.0
+"type": 4,
+"x": 231.0,
+"y": 299.0
 } ],
 "number_of_runs": null,
 "skill": "",
@@ -88,9 +98,6 @@ GodotMation/dict = {
 GodotMation/time_mode = 0
 GodotMation/interval = 0.0980392
 GodotMation/actions = 1038937325
-
-[node name="Node" type="Node" parent="GodotMation" index="0"]
-
-[node name="Node" type="Node" parent="." index="1"]
+GodotMation/autostart = true
 
 

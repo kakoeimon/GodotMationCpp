@@ -12,7 +12,7 @@ public:
     GodotMation_Number();
     ~GodotMation_Number();
     int base = 0;
-    float chance = 0;
+    int chance = 0;
     float number = 0.0f;
 
     void add_number(float);

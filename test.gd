@@ -14,7 +14,7 @@ func _ready():
 	#print("after start : " + str(godotmation.get_GM_number(0)))
 	#print("after start : " + str(godotmation.get_GM_number(1)))
 	var time = OS.get_ticks_msec()
-	for i in range(0):
+	for i in range(100000):
 		#print(godotmation.get_GM_number(7))
 		godotmation.tick()
 		

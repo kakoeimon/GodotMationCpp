@@ -26,7 +26,7 @@ if platform == "osx":
     env.Append(CCFLAGS = ['-g0','-O2', '-std=c++14', '-arch', 'x86_64'])
     env.Append(LINKFLAGS = ['-arch', 'x86_64', '-framework', 'Cocoa', '-Wl,-undefined,dynamic_lookup'])
 elif platform == "linux": ##### LINUX
-    env.Append(CCFLAGS = ['-g0','-O3', '-std=c++14', '-Wno-writable-strings'])
+    env.Append(CCFLAGS = ['-g0','-O2', '-std=c++14', '-Wno-writable-strings'])
     env.Append(LINKFLAGS = ['-Wl,-R,\'$$ORIGIN\''])
 elif platform == "windows": #### WINDOWS
     # need to add detection of msvc vs mingw, this is for msvc...
@@ -49,6 +49,6 @@ env.Append(LIBPATH=[ godot_bindings_path + '/bin/' ])
 sources = []
 add_sources(sources, "src")
 
-library = env.SharedLibrary(target='bin/libgodotmation', source=sources)
+library = env.SharedLibrary(target='addons/kakoeimon.godotmation/lib/libgodotmation', source=sources)
 Default(library)
 
