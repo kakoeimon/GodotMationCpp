@@ -7,10 +7,7 @@ path="res://.import/godotmation.png-f5853737898328250b07445b49157d03.stex"
 [deps]
 
 source_file="res://addons/kakoeimon.godotmation/godotmation.png"
-source_md5="2f6b2ef2b762c2b85e317b9c6992f27b"
-
 dest_files=[ "res://.import/godotmation.png-f5853737898328250b07445b49157d03.stex" ]
-dest_md5="dc330c6ede057f86a0384e186cb5a1d9"
 
 [params]
 

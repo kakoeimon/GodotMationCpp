@@ -1,7 +1,7 @@
 tool
 extends EditorPlugin
 
-const godotmation_edit_pck = preload("res://addons/kakoeimon.godotmation/GodotMation_Edit.tscn")
+var godotmation_edit_pck = load("res://addons/kakoeimon.godotmation/GodotMation_Edit.tscn")
 
 var godotmation_edit = null
 var godotmation_button = null
